@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: background-color 3s ease;
+    background-image: url(OIPtableterepistpic.jpegs);
+    background-size: auto;
+    background-color:grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+header {
+    background-color: aqua;
+    padding: 40px;
+    background-image: url(therepist\ image.jpeg);
+    color:maroon;
+    border:inset ;
+    border-color: groove;
+}
+
+nav a {
+    margin: 40px;
+    color: teal;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 3s ease;
+    background-image: url(therepist\ image.jpeg);
+    border:groove ;
+    
+}
+              
+
+nav a:link { color: aqua; }
+nav a:visited { color: teal; }
+nav a:hover { color: rgb(164, 164, 7); }
+nav a:active { color: maroon; }
+
+.container {
+    background: none;
+    
+    margin: 10px auto;
+    padding: 30px;
+    width: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 3s ease;
+    border: groove;
+    border-color: #6b7497;
+}
+
+.container:hover { transform: scale(1.05); }
+
+button {
+    background-color: aquamarine;
+    color: teal;
+    font-size:large;
+    padding: 10px;
+    border: groove;
+    cursor: pointer;
+    transition: background-color 4s ease;
+}
+
+button:hover { background-color: aqua; }
+
+footer {
+    background-color: teal;
+    color: black;
+    padding: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border:groove ;
+    border-color: aquamarine;
+    font-size: larger;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section {
+    padding: 50px;
+    height: 60vh;
+    background-color: dimgray;
+}
+#home {
+    text-align: center;
+    background-color: teal;
+    font-weight: 3000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    font-size: 2em;
+    border: groove;
+    border-color:maroon;
+
+}
+
+#home h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: turquoise;
+    background-image: url(therepist\ image.jpeg);
+    border: inset;
+    border-bottom: 0cqmax;
+    border-color:teal;
+
+}
+
+
+#h1{
+font-size: 4e;
+font-weight: bold;
+text-align: center;
+    background-color: teal;
+    font-weight: 3000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    font-size: medium;
+
+
+
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 20px;
+    color: grey;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.8s ease;
+    background-color: grey;
+    border:groove ;
+    border-color: beige;
+}
+
+.btn:hover {
+     background-color:saddlebrown;
+
+}
+
+
+
+
+<!---
+/* Section Specific Background Colors */
+#home { background-color: dimgray; }
+#signup { background-color:mediumturquoise; }
+#login { background-color: gray; }
+#dashboard { background-color: mediumaquamarine; }
+#contact { background-color:crimson; }
+#analysis { background-color:gray; }
+#doctor { background-color: grey; }
+#therapy { background-color: lightgreen; }
+
+/* :target Styling */
+#home:target { background-color: burlywood; }
+#signup:target { background-color: grey; }
+#login:target { background-color: darkgoldenrod; }
+#dashboard:target { background-color: mediumseagreen; }
+#contact:target { background-color: darkolivegreen; }
+#analysis:target { background-color: darkkhaki; }
+#doctor:target { background-color: mediumturquoise; }
+#therapy:target { background-color: darkorange; }  ---->
+
+
